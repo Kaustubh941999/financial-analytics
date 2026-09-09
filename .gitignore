@@ -1,0 +1,10 @@
+# Ignore data files
+*.csv
+*.parquet
+*.json
+data/
+
+# Ignore Spark & Python checkpoints
+.ipynb_checkpoints/
+__pycache__/
+.sparkStaging/
